@@ -1,0 +1,254 @@
+#whole {
+  margin-left: 450px;
+  margin-right: 300px;
+
+
+}
+h1{
+  color: skyblue;
+}
+article {
+  font-family: sans-serif;
+}
+aside {
+  float: left;
+  margin-left: 110px;
+}
+.hoverover {
+  margin: 20px 20px;
+  border-right: 1px solid grey;
+  border-bottom: 1px solid grey;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  font-size: 120%;
+  font-family: Trebuchet MS;
+}
+#one:hover {
+  background-color: lightblue;
+  font-weight: bold;
+  cursor: grab;
+}
+#two:hover {
+  background-color: lightblue;
+  font-weight: bold;
+  cursor: grab;
+}
+#three:hover {
+  background-color: lightblue;
+  font-weight: bold;
+  cursor: grab;
+}
+#four:hover {
+  background-color: lightblue;
+  font-weight: bold;
+  cursor: grab;
+}
+#five:hover {
+  background-color: lightblue;
+  font-weight: bold;
+  cursor: grab;
+}
+#six:hover {
+  background-color: lightblue;
+  font-weight: bold;
+  cursor: grab;
+}
+#seven:hover {
+  background-color: lightblue;
+  font-weight: bold;
+  cursor: grab;
+}
+#eight:hover {
+  background-color: lightblue;
+  font-weight: bold;
+  cursor: grab;
+}
+#nine:hover {
+  background-color: lightblue;
+  font-weight: bold;
+  cursor: grab;
+}
+#ten:hover {
+  background-color: lightblue;
+  font-weight: bold;
+  cursor: grab;
+}#eleven:hover {
+  background-color: lightblue;
+  font-weight: bold;
+  cursor: grab;
+}
+#twelve:hover {
+  background-color: lightblue;
+  font-weight: bold;
+  cursor: grab;
+}
+
+
+header {
+  margin-bottom: 100px;
+
+}
+
+#quote {
+  text-align: center;
+  padding: 0 200px;
+  font-family: cursive;
+  font-size: 50px;
+  color: steelblue;
+
+
+}
+h2 {
+  text-align: center;
+}
+li {
+  list-style-type: none;
+}
+.icons {
+  float: left;
+  margin-right: 30px;
+
+}
+.middle-text {
+  
+}
+.fix {
+  margin-bottom: -15px;
+}
+#middle {
+  margin: 0 200px;
+}
+#materials {
+  margin-bottom: 60px;
+}
+#shipping {
+  margin-bottom: 60px;
+}
+#quality {
+  margin-bottom: 60px;
+}
+section {
+  margin-top: 100px;
+  }
+
+#footerlinks {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  margin-left: -100px;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  background: lightgrey;
+  font-family: Arial;
+
+}
+.footertitle {
+  font-size: 150%;
+  margin: 30px;
+  font-family: "Helvetica";
+  font-weight: bold;
+  
+}
+.footerlist {
+  margin: 0 50px;
+  font-family: "Times New Roman ";
+
+}
+#info:hover {
+  cursor: grab;
+}
+#over:hover {
+  cursor: grab;
+}
+#social:hover {
+  cursor: grab;
+}
+#navf:hover {
+  cursor: grab;
+}
+footer {
+
+  margin-top: 100px;
+}
+#foot {
+  
+}
+body {
+  background: beige;
+}
+.container {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  
+  
+
+}
+
+
+
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.logo {
+  float: left;
+  padding: 10px 0;
+  border-radius: 50%;
+  margin-left: -110px;
+
+  
+  
+}
+
+nav {
+  float: right;
+  font-family: Tahoma ;
+  
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 70px;
+  padding-top: 23px;
+
+  position: relative;
+}
+
+nav a {
+  color: #444;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+nav a:hover {
+  color: #000;
+}
+
+nav a::before {
+  content: '';
+  display: block;
+  height: 5px;
+  background-color: #444;
+
+  position: absolute;
+  top: 0;
+  width: 0%;
+
+  transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+  width: 100%;
+}
